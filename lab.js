@@ -343,7 +343,11 @@ for(i = 0; i < 100; i++){
 
 //Code Here
 for(i = 0; i < 100; i++){
-    if(i%3 == 0)
+   if(i%5==0 && i%3 == 0)
+    {
+    console.log("Devmountain")
+    }  
+    else if(i%3 == 0)
     {
       console.log("Dev")
      }
@@ -351,11 +355,7 @@ for(i = 0; i < 100; i++){
     { 
       console.log("mountain")
      }
-    else if(i%3 ==0 && i%5 == 0)
-    {
-      console.log*("Devmountain")
-    }
-      else{
+    else{
       console.log(i)
     }
   }
